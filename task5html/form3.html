@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form3</title>
+</head>
+
+<body bgcolor="#e2d6c5">
+    <center>
+        <caption>
+            <h1>Registration Form</h1>
+        </caption>
+    </center>
+    <table align="center" cellspacing="1px" bgcolor="yellow">
+        <form method="post">
+            <tr>
+                <td><label for="id1">First Name</label></td>
+                <td><input type="text" id="id1" name="name1"></td>
+                <td><label for="id2">Last Name</label>
+                <input type="text" id="id2" name="name2"></td>
+            </tr>
+            <tr>
+                <td>Birthday</td>
+                <td><input type="date"></td>
+                <td>Gender:<label>Male</label>
+                    <input type="radio" value="male" name="gender">
+                    <label>Female</label>
+                    <input type="radio" value="female" name="gender">
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" required id="id3" name="name3"></td>
+                <td>Ph Number
+                <input type="number" required id="id4" name="name4"></td>
+
+            </tr>
+            <tr>
+                <td>Subject</td>
+                <td><select>
+                        <option>choose1</option>
+                        <option>choose2</option>
+                        <option>choose3</option>
+                        <option>choose4</option>
+                        <option>choose5</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2"><input type="submit"></td>
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>
