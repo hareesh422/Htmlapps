@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>doctor SignUp</title>
+</head>
+
+<body bgcolor="#c9f1db">
+
+    <head>
+        <h1>
+            <center>
+                <font color="blue">Apollo Hospitals</font>
+            </center>
+        </h1>
+        <center>
+            <a href="home.html">About Apollo</a>&nbsp;|&nbsp;
+            <a href="branches.html">Apollo Branches</a>&nbsp;|&nbsp;
+            <a href="services.html">Apollo Services</a>&nbsp;|&nbsp;
+            <a href="doctors.html">Apollo Doctors</a>&nbsp;|&nbsp;
+            <a href="labs.html">Apollo Labs</a>&nbsp;|&nbsp;
+            <a href="doctorsignin.html">Doctor SignIn</a>&nbsp;|&nbsp;
+            <a href="#">Doctor SignUp</a>&nbsp;|&nbsp;
+            <a href="patientsignin.html">Patient SignIn</a>&nbsp;|&nbsp;
+            <a href="patientsignup.html">Patient SignUp</a>&nbsp;|&nbsp;
+            <a href="feedback.html">Feed Back</a>&nbsp;|
+            <a href="contact.html">Apollo Contact</a>
+        </center>
+    </head>
+    <hr>
+    <center>
+        <h3>Doctor Registration</h3>
+    </center>
+    <table align="center" bgcolor="yellow" cellspacing="20px">
+        <form method="post" action="hareeshserver" name="doctorreg">
+            <tr>
+                <!---First Name--->
+                <td><label>First Name</label><br>
+                    <input type="text" autofocus id="id1" name="firstname">
+                </td>
+                <!--Last Name-->
+                <td><label>Last Name</label><br>
+                    <input type="text" id="id2" name="lastname">
+                </td>
+            </tr>
+            <tr>
+                <!--User Name-->
+                <td><label>User Name</label><br>
+                    <input type="text" id="id3" name="username">
+                </td>
+                <!--Password-->
+                <td><label>Password</label><br>
+                    <input type="password" id="id4" name="password">
+                </td>
+            </tr>
+            <tr>
+                <!--Email-->
+                <td><label>Email id</label><br>
+                    <input type="email">
+                </td>
+                <!--Mobile Number-->
+                <td><label>Mobile Number</label><br>
+                    <input type="number">
+                </td>
+            </tr>
+            <tr>
+                <!--Specialist-->
+                <td><label>Specialist in</label><br>
+                    <select>
+                        <option>Please Select a Specialist</option>
+                        <option>Caridoligist</option>
+                        <option>Audiologist</option>
+                        <option>Dentist</option>
+                        <option>ENT Surgeon</option>
+                        <option>Radiologist</option>
+                        <option>Pediatrician</option>
+                        <option>Psychaitrist</option>
+                        <option>Vetarianarian</option>
+                        <option>Neurologist</option>
+                        <option>Cardiothoratic</option>
+                    </select>
+                </td>
+                <!--Gender-->
+                <td><label>Gender</label><br>
+                    <select name="gender">
+                        <option value="p">Please Select Gender</option>
+                        <option value="M">Male</option>
+                        <option value="F">Female</option>
+                        <option value="o">others</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <!--State-->
+                <td><label>State</label><br>
+                    <select>
+                        <option>Please Select a State</option>
+                        <option>Andhra Pradesh</option>
+                        <option>Telangana</option>
+                        <option>TamilNadu</option>
+                        <option>Karnataka</option>
+                        <option>Kerala</option>
+                        <option>Maharastra</option>
+                        <option>Odissa</option>
+                        <option>Goa</option>
+                </td>
+                <!--City-->
+                <td><label>City</label><br>
+                    <select>
+                        <option>Please Select the City</option>
+                        <option>Vijayawada</option>
+                        <option>Hyderabad</option>
+                        <option>Eluru</option>
+                        <option>Warangal</option>
+                        <option>Khamam</option>
+                        <option>Guntur</option>
+                        <option>Kakinada</option>
+                        <option>Vishakapatnam</option>
+                        <option>Thirupathi</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <!--Address-->
+                <td rowspan="2"><label>Address</label><br>
+                    <textarea rows="6" cols=20>
+
+                </textarea>
+                </td>
+                <td>
+                    <!--Code-->
+                    <label>Code</label><br>
+                    <input type="number">
+                </td>
+            </tr>
+            <!--Submit button-->
+            <tr align="center">
+                <td> <input type="submit" value="Register">
+                    <!--clear-->
+                    <input type="reset" value="clear">
+                </td>
+            </tr>
+            <!--Already registred -->
+            <tr align="center">
+                <td colspan="4"><a href="doctorsignin.html">Already Have an Account?</a></td>
+            </tr>
+
+        </form>
+    </table>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <hr>
+    <!--Footer-->
+    <footer>
+        <center>
+            <font color="blue">Copyright@360Digrii</font>
+        </center>
+        </h1>
+    </footer>
+</body>
+
+</html>

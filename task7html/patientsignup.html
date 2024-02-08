@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>patientsignup</title>
+</head>
+
+<body bgcolor="#c9f1db">
+
+    <head>
+        <h1>
+            <center>
+                <font color="blue">Apollo Hospitals</font>
+            </center>
+        </h1>
+        <center>
+            <a href="home.html">About Apollo</a>&nbsp;|&nbsp;
+            <a href="branches.html">Apollo Branches</a>&nbsp;|&nbsp;
+            <a href="services.html">Apollo Services</a>&nbsp;|&nbsp;
+            <a href="doctors.html">Apollo Doctors</a>&nbsp;|&nbsp;
+            <a href="labs.html">Apollo Labs</a>&nbsp;|&nbsp;
+            <a href="doctorsignin.html">Doctor SignIn</a>&nbsp;|&nbsp;
+            <a href="doctorsignup.html">Doctor SignUp</a>&nbsp;|&nbsp;
+            <a href="patientsignin.html">Patient SignIn</a>&nbsp;|&nbsp;
+            <a href="#">Patient SignUp</a>&nbsp;|&nbsp;
+            <a href="feedback.html">Feed Back</a>&nbsp;|
+            <a href="contact.html">Apollo Contact</a>
+        </center>
+    </head>
+    <hr>
+    <center>
+        <h3>Patient Registration</h3>
+    </center>
+    <!--Form starting-->
+    <form method="post" name="patientsignup" action="hareeshserver" >
+        <!--table starting-->
+        <table align="center" cellspacing="20px" bgcolor="yellow">
+            
+            <tr>
+                <!--patient names-->
+                <td><label for="id1">Patient's Name</label></td>
+                <td> <input type="text" placeholder="First Name" id="id1" name="fname"></td>
+                <td><input type="text" placeholder="Last Name" id="id2" name="lname"></td>
+            </tr>
+            <tr>
+                <!--user name-->
+                <td><label for="id3">Username:</label></td>
+                <td><input type="text" placeholder="Username" id="id3" name="uname"></td>
+            </tr>
+            <tr>
+                <!--gender-->
+                <td><label>Gender</label></td>
+                <td><input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="male">Female
+                </td>
+            </tr>
+            <tr>
+                <!--M. Number-->
+                <td><label for="id4"> Mobile Number</label></td>
+                <td><input type="number" placeholder="### #### ###" id="id4" name="mnum"></td>
+            </tr>
+            <tr>
+                <!--email-->
+                <td><label for="id5">E-mail</label></td>
+                <td><input type="email" placeholder="E-mail" id="id5" name="mail"></td>
+            </tr>
+            <tr>
+                <!--DOBs-->
+                <td><label>Date of Birth</label></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td><label>Maritial Status</label></td>
+                <td colspan="2"><input type="radio" value="single" name="radio1">Single
+                    <input type="radio" value="married" name="radio1">Married
+                    <input type="radio" value="divorced" name="radio1">Divorced
+                    <input type="radio" value="widow" name="radio1">Widow
+                </td>
+            </tr>
+            <tr>
+                <td><label for="id6">Patient address</label></td>
+                <td colspan="2"><input type="text" placeholder="select Address" size="49"></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="text" placeholder="City">
+                </td>
+                <td>
+                    <input type="text" placeholder="State">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="Number" placeholder="Postal/Zip Code">
+                </td>
+                <td>
+                    <input type="text" placeholder="Country">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="id11>Insurance Name</label></td>
+                <td><input type="text" value="id11" name="iname"></td>
+            </tr>
+            <tr>
+                <td>Past Medical History</td>
+                <td><input type="checkbox" name="checkbox" value="anemia">Anemia<br>
+                    <input type="checkbox" name="checkbox" value="asthma">Asthma<br>
+                    <input type="checkbox" name="checkbox" value="Bronchits">Bronchits<br>
+                    <input type="checkbox" name="checkbox" value="chicken pox">Chicken Pox<br>
+                    <input type="checkbox" name="checkbox" value="diabates">Diabetes<br>
+                    <input type="checkbox" name="checkbox" value="Pneumonia">Pneumonia<br>
+                    <input type="checkbox" name="checkbox" value="throid">Thyroid Disease<br>
+                    <input type="checkbox" name="checkbox" value="ulcer">Ulcer<br>
+                    <input type="checkbox" name="checkbox" value="other">Other<br>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="id12">Password</label></td>
+                <td><input type="password""></td>
+            </tr>
+            <tr>
+                <td><label for="id13">Confirm Password</label></td>
+                <td><input type="password"></td>
+            </tr>
+
+            <tr align="center">
+                <td colspan="3"><input type="submit" value="Register">
+                    <input type="reset" value="Clear">&nbsp;&nbsp;&nbsp;
+                <a href="patientsignin.html">Already have an Account?</a></td>
+            </tr>
+        </table>
+    </form>
+
+    <br><br><br><br><br><br><br>
+    <hr>
+    <footer>
+        <center>
+            <font color="blue">Copyright@360Digrii</font>
+        </center>
+        </h1>
+    </footer>
+
+</body>
+
+</html>
