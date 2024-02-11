@@ -1,10 +1,9 @@
- Functional Statements- java Langauge
+ Addition of numbers bu using methods java Langauge
 import java.util.*;
-
 public class Main {
-     public static void subtraction(int a,int b){
+     public static void Addition(int a,int b){
        int result;
-       result=a-b;
+       result=a+b;
        System.out.println(result);
      }
   
@@ -14,9 +13,8 @@ public class Main {
   }
 }
 --------------------------------------------------------------
-//Subtraction of Number by using Functional Statements- java Langauge
+//Subtraction of Numbers by using Methods - java Langauge
 import java.util.*;
-
 public class Main {
      public static void subtraction(int a,int b){
        int result;
@@ -29,8 +27,9 @@ public class Main {
     
   }
 }
------------------------------------------------------------------import java.util.*;
-
+-----------------------------------------------------------------
+ Mutliplication of numbers by using methods in java
+ import java.util.*;
 public class Main {
      public static void multiplication(int a,int b){
        int result;
@@ -43,8 +42,9 @@ public class Main {
     
   }
 }
-------------------------------------------------------------------import java.util.*;
-
+------------------------------------------------------------------
+ Average of numbers by using methods in java
+ import java.util.*;
 public class Main {
      public static void Average(int a,int b){
        int result;
