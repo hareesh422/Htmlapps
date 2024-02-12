@@ -42,7 +42,7 @@ int main()
   result=n1*n2;
   printf("%d\n",result);
 }
-
+-------------------------------------------------------------------------------------------------------------------------------
 //Average of givennumbers by Using Non Functional statements-c
 #include <stdio.h>
 int main()
